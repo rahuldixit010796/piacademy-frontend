@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 import Loader from "../Loader/Loader";
 import Heading from "@/app/utils/Heading";
 import Header from "../Header";
-import Footer from "../Footer";
 import CourseDetails from "./CourseDetails";
 import {
   useCreatePaymentIntentMutation,
@@ -73,7 +72,6 @@ const CourseDetailsPage = ({ id }: Props) => {
               setOpen={setOpen}
             />
           )}
-          <Footer />
         </div>
       )}
     </>

@@ -17,7 +17,7 @@ const nextConfig = {
       },
     ],
   },
-    unoptimized: true, // ✅ disable next optimization for remote images
+    // unoptimized: true, // ✅ disable next optimization for remote images
 
 };
 
